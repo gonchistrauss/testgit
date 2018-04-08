@@ -28,14 +28,6 @@ dos = S uno
 
 -- 1(C)
 
-resta:: N -> N -> N
-resta = \x y -> case y of{
-	O -> x;
-	S z -> case x of{
-		S w -> resta w z;
-		O -> O;
-	};
-}
 
 -- Termina con el caso base y es cuando el segundo numero es 0.
 
