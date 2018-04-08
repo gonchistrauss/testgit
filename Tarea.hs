@@ -26,6 +26,8 @@ dos = S uno
 -- 1(C)
 
 
+--fdasgsdgasfsgsgf
+
 -- Termina con el caso base y es cuando el segundo numero es 0.
 
 -- 1(D)
