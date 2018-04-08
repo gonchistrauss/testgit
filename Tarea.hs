@@ -17,9 +17,6 @@ data N = O | S N
 
 --1(B) OPCION 2
 
-suma:: N -> N -> N
-suma O n = n
-suma (S x) n = S (suma x n)
 
 uno = S O
 dos = S uno
